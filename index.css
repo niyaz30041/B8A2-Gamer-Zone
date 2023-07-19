@@ -486,3 +486,40 @@ padding: 20px 0 90px 0;
     justify-content: center;
     color: white;
 }
+/* for mobile device */
+@media screen and (max-width: 576px) {
+    header{
+        /* padding:20px; */
+        text-align: center;
+        margin: 0px 0px 300px 793px ;
+
+    }
+    .nav-container{
+        flex-direction: column;
+        justify-items: center;
+        padding: 0 auto;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .nav-items-container{
+        flex-direction: column;
+        /* text-align: center;
+        justify-content: center; */
+        align-items: center;
+        margin-left: 250px;
+    }
+    .second-page{
+        
+        flex-direction: column;
+        background-color: 100%;
+    }
+    .first-column{
+        order: 2;
+        margin:0 auto;
+        padding-left: 630px;
+    }
+    .second-column{
+        order: 1;
+        margin-left:117px ;
+    }
+}
