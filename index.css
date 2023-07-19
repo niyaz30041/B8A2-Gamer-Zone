@@ -205,7 +205,7 @@ height: 650px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding:346px;
+    padding:10px 346px 0px 346px;
 }
 .fifth-page h3{
     text-align: right;
@@ -213,5 +213,37 @@ font-family: Work Sans;
 font-size: 48px;
 font-style: normal;
 font-weight: 700;
-line-height: 60px
+/* line-height: 60px */
+}
+.sixth-page{
+    display: flex;
+    align-items: center;
+    padding-left: 220px;
+}
+.bottom-second-image{
+    position: relative;
+    bottom: 240.5px;
+    left:520.33px;
+    
+
+}
+.sixth-page-image img{
+    /* padding-left: 50px; */
+}
+.play-games{
+    font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.anywhere{
+    font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
 }
