@@ -1,111 +1,117 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500&family=Work+Sans:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500&family=Work+Sans:wght@400;500;600;700&display=swap");
 * {
-    font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Work Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
+
 .nav-container {
-    border: 1px solid red;
-    height: 130px;
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1440px;
-    margin: 0 auto;
+  border: 1px solid red;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .logo-container {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    font-size: 45px;
-    font-weight: 700;
-
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 45px;
+  font-weight: 700;
 }
-.logo-container img{
-    border: 1px solid red;
-    width: 86.041px;
-    /* height: 40px; */
-    object-fit: cover;
+.logo-container img {
+  border: 1px solid red;
+  width: 86.041px;
+  /* height: 40px; */
+  object-fit: cover;
 }
-.logo-container p{
-    font-size: 40px;
+.logo-container p {
+  font-size: 40px;
 }
-.nav-items-container{
-    border: 1px solid blue;
-    width 50%;
-    display: flex;
-    /* justify-content: space-between; */
-    gap:50px;
-    color: #3C354F;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 500;
-
-
+.nav-items-container {
+  border: 1px solid blue;
+  width: 50%;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 50px;
+  color: #3c354f;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
 }
-.G{
-    color: #F144AE;
+.G {
+  color: #f144ae;
 }
-.nav-items-container a{
-    text-decoration:none;
-    display: flex;
-    align-items: center;
-
+.nav-items-container a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 .follow-us-on {
-    color: #3C354F;
-/* text-align: center; */
-font-size: 18px;
-font-weight: 500;
-width: 262px;
-height: 56px;
-border-radius: 8px;
-background: rgba(11, 2, 35, 0.10);
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 20px;
+  color: #3c354f;
+  /* text-align: center; */
+  font-size: 18px;
+  font-weight: 500;
+  width: 262px;
+  height: 56px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 .third-page {
-    display: flex;
-    align-items: center;
-    padding: 55px 240px 55px 240px;
+  display: flex;
+  align-items: center;
+  /* padding: 55px 240px 55px 240px; */
+}
+.third-page-header {
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.third-page-paragraph {
+  width: 520px;
+  color: #534c64;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.btn-primary {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-flex;
+  padding: 21px 40px;
+  /* align-items: flex-start; */
+  gap: 10px;
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  margin-left: 310px;
+}
 
+main {
+  max-width: 1140px;
+  margin: 0 auto;
 }
-.third-page-header{
-    text-align: right;
-font-family: Work Sans;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+.banner {
+    border: 1px solid red;
 }
-.third-page-paragraph{
-    width: 520px;
-    color: #534C64;
-text-align: right;
-font-family: Work Sans;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-}
-.btn-primary{
-    color: #FFF;
-font-family: Work Sans;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-text-transform: uppercase;
-display: inline-flex;
-padding: 21px 40px;
-align-items: flex-start;
-gap: 10px;
-border-radius: 48px;
-background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+
+.third-page-image{
+width: 600px;
 }
