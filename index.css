@@ -321,34 +321,38 @@ font-weight: 700;
 
 
 .profile{
+    border-color: 1px solid white;
+    cursor: pointer;
     display: flex;
     width: 243px;
-height: 80px;
-border-radius: 50px;
-background: #FFF;
-align-items: center;
-gap:7px;
-border: 0;
+    height: 80px;
+    border-radius: 50px;
+    background: #FFF;
+    align-items: center;
+    gap:7px;
+    position: relative;
     
+}
+.profile {
+    background-color: transparent;
+    
+
+    
+}
+
+
+.profile:hover {
+    border-color: pink;
+}
+.profile p {
+    color: black;
+}
+.profile:hover p {
+    color: pink;
 }
 .first-button-section{
     display: flex;
     justify-content: space-around;
-}
-.b-profile{
-    color:#f144ae;
-    display: flex;
-    width: 243px;
-height: 80px;
-border-radius: 50px;
-background: #FFF;
-align-items: center;
-background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-border-color:  #FF42A5 ;
-gap:7px;
 }
 .second-button-section{
     display: flex;
@@ -426,6 +430,9 @@ padding: 20px 0 90px 0;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+.a{
+    background-color: transparent;
 }
 
 
