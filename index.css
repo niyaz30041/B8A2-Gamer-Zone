@@ -434,6 +434,11 @@ padding: 20px 0 90px 0;
 .a{
     background-color: transparent;
 }
+.image-button{
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 /* for mobile device */
