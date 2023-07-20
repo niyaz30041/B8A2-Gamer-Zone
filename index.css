@@ -16,8 +16,8 @@ footer{
 }
 
 .nav-container {
-  /* border: 1px solid red; */
-  height: 130px;
+  border: 1px solid red;
+  /* height: 130px; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -83,11 +83,8 @@ footer{
 }
 .third-page-header {
   text-align: right;
-  font-family: Work Sans;
   font-size: 48px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -97,9 +94,7 @@ footer{
   /* width: 520px; */
   color: #534c64;
   text-align: right;
-  font-family: Work Sans;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
   line-height: 30px;
 }
@@ -108,7 +103,6 @@ footer{
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
-  display: inline-flex;
   padding: 21px 40px;
   /* align-items: flex-start; */
   gap: 10px;
@@ -128,8 +122,8 @@ main {
 }
 
 .third-page-image{
-    width: 868px;
-    height: 489px;
+    /* width: 868px;
+    height: 489px; */
 }
 .funny-videos{
     background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
@@ -140,11 +134,8 @@ main {
 
 .fourth-page-header{
     text-align: center;
-font-family: Work Sans;
 font-size: 48px;
-font-style: normal;
 font-weight: 700;
-line-height: normal;
 
 }
 .fourth-page-paragraph{
@@ -167,11 +158,10 @@ line-height: 30px;
 .fourth-page-img-paragraph{
     display:flex;
     color: #534C64;
-font-family: Work Sans;
 font-size: 20px;
-font-style: normal;
-/* font-weight: 500;
-line-height: 30px; */
+font-weight: 500;
+width: 350px;
+/* line-height: 30px; */
 /* text-align: center; */
 /* gap:60px; */
 /* text-align: left; */
@@ -219,7 +209,6 @@ height: 650px;
 }
 .fifth-page h3{
     text-align: right;
-font-family: Work Sans;
 font-size: 48px;
 font-style: normal;
 font-weight: 700;
@@ -266,15 +255,12 @@ line-height: 60px;
     
 font-family: Work Sans;
 font-size: 48px;
-font-style: normal;
 font-weight: 700;
 /* line-height: 60px; */
 }
 .seventh-page p{
     color: #FFF;
-font-family: Work Sans;
 font-size: 18px;
-font-style: normal;
 font-weight: 400;
 line-height: 30px;
 }
@@ -313,22 +299,15 @@ background: #FFF;
 }
 .first-title{
     color: #0B0223;
-text-align: center;
-font-family: Work Sans;
+/* text-align: center; */
 font-size: 48px;
-font-style: normal;
 font-weight: 600;
-line-height: normal;
-text-transform: uppercase;
+
 }
 .second-title{
-    text-align: center;
-font-family: Work Sans;
+    /* text-align: center; */
 font-size: 95px;
-font-style: normal;
 font-weight: 800;
-line-height: normal;
-text-transform: uppercase;
 background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 background-clip: text;
 -webkit-background-clip: text;
@@ -341,6 +320,7 @@ background-clip: text;
     gap: 10px;
     
 }
+
 .pink-button{
     color: #FFF;
 font-family: Work Sans;
@@ -352,7 +332,7 @@ text-transform: uppercase;
     display: inline-flex;
 padding: 21px 40px;
 align-items: flex-start;
-gap: 10px;
+/* gap: 10px; */
 border-radius: 48px;
 background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
 border: 0;
@@ -365,10 +345,10 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 text-transform: uppercase;
-display: inline-flex;
+
 padding: 21px 40px;
-align-items: flex-start;
-gap: 10px;
+
+/* gap: 10px; */
 border-radius: 48px;
 background: #4EC5F7;
 border: 0;
@@ -377,6 +357,7 @@ border: 0;
 .button-blog{
     display: flex;
     justify-content: center;
+    gap:15px
 }
 .second-page{
     display: flex;
@@ -384,12 +365,17 @@ border: 0;
     background-image: url(images/Group\ 14.png);
     background-repeat: no-repeat;
     
+    gap: 530px;
 }
 .first-column{
     padding-left:240px;
+    /* background-image: url(images/Group\ 14.png); */
+    background-repeat: no-repeat;
+    
+    
 }
 .second-column{
-    padding-left: 430px;
+    /* padding-left: 430px; */
 }
 .whole-first-frame{
     
@@ -439,11 +425,8 @@ gap:7px;
 .pp{
     color: #FFF;
 text-align: center;
-font-family: Work Sans;
 font-size: 18px;
-font-style: normal;
 font-weight: 600;
-line-height: normal;
 }
 .company-icon{
     display: flex;
@@ -486,40 +469,191 @@ padding: 20px 0 90px 0;
     justify-content: center;
     color: white;
 }
+.hudai{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: center;
+    align-items: center;
+}
 /* for mobile device */
 @media screen and (max-width: 576px) {
+    *{border: 1px solid red;}
+    *{max-width:576px ;}
+    *{margin: 0 auto; }
+    *{padding: ;}
     header{
-        /* padding:20px; */
+        
         text-align: center;
-        margin: 0px 0px 300px 793px ;
+        justify-content: center;
+        /* border-color: #f144ae;
+        border: 10px; */
+        align-items: center;
+        /* padding-right: 10px; */
+        /* max-height: ; */
+        /* margin: 0px 0px 300px 793px ; */
 
+    }
+    .logo-container{
+        padding-left: 0px ;
     }
     .nav-container{
         flex-direction: column;
         justify-items: center;
-        padding: 0 auto;
-        margin: 0 auto;
+        padding-top: 50px;
+        padding-right: 10px;
+        padding-left: 0px;
+        
         text-align: center;
+        margin: 0 auto;
     }
     .nav-items-container{
         flex-direction: column;
-        /* text-align: center;
-        justify-content: center; */
+      
         align-items: center;
-        margin-left: 250px;
+        padding-left: 0px;
+        padding-top: 30px;
+        
     }
     .second-page{
         
         flex-direction: column;
-        background-color: 100%;
+        gap:0px;
+        background-image:none;
     }
     .first-column{
         order: 2;
         margin:0 auto;
-        padding-left: 630px;
+        padding-left: 0px;
+        background-image: url(images/Group\ 14.png);
+        /* max-width: auto; */
+        /* padding-right: 140px; */
     }
     .second-column{
         order: 1;
-        margin-left:117px ;
+    
+        
+
     }
+    .third-page{
+        flex-direction: column;
+        align-items: center;
+        background: none;
+        padding: 0;
+    }
+    .third-page-image{
+        max-width: 576px;
+        
+    }
+    .third-page-header{
+        text-align: center;
+    }
+    .third-page-paragraph{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .btn-primary{
+        margin-top: 20px;
+        margin-left: 181px;
+    }
+    .fourth-page-header{
+        font-size: 38px;
+    }
+    .fourth-page-image-container{
+        flex-direction: column;
+    }
+    .fourth-page-img-paragraph{
+        font-size: 12px;
+    }
+    .fifth-page{
+        flex-direction: column;
+    }
+    .fifth-page h3{
+        text-align: center;
+
+    }
+    .fifth-page-paragraph{
+        text-align: center;
+    }
+    .fifth-page-text{
+        padding: 0px;
+    }
+    .fifth-page-image img{
+        width: 60%;
+        height:80%;
+        padding-left: 150px;
+    }
+    .bottom-image img{
+        width:37%;
+        height:30%;
+    }
+    .bottom-image{
+        position: relative;
+        bottom:200px ;
+        right:100px ;
+    }
+    .sixth-page{
+        flex-direction: column;
+        display: none;
+
+    }
+    .seventh-page{
+        flex-direction: column;
+    }
+    .seventh-page-text{
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .eighth-page{
+        display: grid;
+        grid-template-columns: repeat(2,1fr) ;
+        padding: 0px 0px 0px 0px;
+    }
+    .first-button-section{
+        display: contents;
+    }
+    .second-button-section{
+        display:contents;
+        
+        
+    }
+    .profile{
+        gap: 0px;
+        height: 40;
+        width: 120;
+    }
+    .b-profile{
+        gap: 3px;
+        height: 40;
+        width: 120;
+    }
+    .logo-container-footer{
+        gap: 2px;
+        padding: 0px 160px;
+    }
+    .p-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 30px 80px 0px 80px;
+        gap:30px;
+        
+
+    }
+    .company-icon{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding-left: 140px;
+        padding-right: 140px;
+        gap: 20px;
+
+    }
+    .conditions{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .copy{
+        width:300px;
+    }
+
 }
